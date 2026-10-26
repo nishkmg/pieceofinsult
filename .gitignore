@@ -1,2 +1,9 @@
 *.DS_Store
 ._*
+
+# never commit credentials into this public repo
+client_secret*.json
+*client_secret*
+token.json
+*.token.json
+.env
