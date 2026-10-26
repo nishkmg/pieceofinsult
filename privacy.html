@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — PieceOfInsult</title>
+<meta name="description" content="Privacy policy for the PieceOfInsult application: how it accesses, uses, stores and shares Google user data.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <img src="logo-120.png" width="72" height="72" alt="PieceOfInsult logo">
+  <div>
+    <h1>Privacy Policy</h1>
+    <p class="tag">PieceOfInsult · effective 26 October 2026</p>
+  </div>
+</header>
+
+<main>
+  <p>This policy describes how the <strong>PieceOfInsult</strong> application
+  ("the app", "we") handles information. It is a single-developer tool that
+  publishes short-form videos to the developer's own YouTube channel.</p>
+
+  <section>
+    <h2>1. Google user data the app accesses</h2>
+    <p>The app requests only these YouTube Data API v3 scopes:</p>
+    <ul>
+      <li><strong><code>youtube.upload</code></strong> — to upload a video, including its title, description, tags, thumbnail and privacy status, to the channel owned by the authorizing account.</li>
+      <li><strong><code>youtube.readonly</code></strong> — to read basic channel and video metadata after an upload, so the developer can confirm that it succeeded and report its video ID and status.</li>
+    </ul>
+    <p>The app does <strong>not</strong> access Gmail, Google Drive, Google Calendar,
+    contacts, location, advertising data, YouTube comments, private videos it does
+    not own, or any other Google product.</p>
+  </section>
+
+  <section>
+    <h2>2. How Google user data is used</h2>
+    <p>Data is used for one purpose only: to carry out the upload the developer
+    requested, and to verify that it completed. It is not used to profile any
+    person, to personalise advertising, or to build an audience or marketing list.</p>
+  </section>
+
+  <section>
+    <h2>3. How Google user data is stored</h2>
+    <ul>
+      <li><strong>OAuth credentials</strong> — the refresh token and access token are written to local credential files on the developer's own machine, with user-only file permissions. They are not uploaded to any server or service.</li>
+      <li><strong>Video metadata</strong> — titles, descriptions and tags are held in the developer's own local content files, and are also held by YouTube.</li>
+      <li>Tokens are retained until access is revoked or the credential files are deleted.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Sharing and sale</h2>
+    <p>Google user data is <strong>never sold, rented, brokered or shared</strong> with
+    third parties. It is not transferred to any advertising or analytics provider.
+    The only recipient is Google, through the YouTube API, for the upload itself.</p>
+    <p>Information may be disclosed only where the developer is legally required to
+    do so.</p>
+  </section>
+
+  <section>
+    <h2>5. Data this site collects</h2>
+    <p>This website is static. It contains no analytics, no tracking pixels, no
+    cookies, no account system and no forms. It collects nothing about its
+    visitors.</p>
+  </section>
+
+  <section>
+    <h2>6. Retention and deletion</h2>
+    <ul>
+      <li>Google user data is retained only for as long as the developer needs it to run and verify the channel, and until access is revoked.</li>
+      <li>To delete everything, revoke the app's access at
+        <a href="https://myaccount.google.com/permissions">Google Account &gt; Third-party access</a>.
+        Revocation removes the tokens immediately; the developer's local copies can then
+        be deleted.</li>
+      <li>Uploaded videos remain on YouTube until deleted from YouTube.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. Security</h2>
+    <p>Access is OAuth 2.0 — the app never sees or stores your Google password.
+    Credentials are stored locally with restrictive file permissions. No method of
+    transmission or storage is perfectly secure, so the developer keeps the
+    requested scope to the minimum listed above.</p>
+  </section>
+
+  <section>
+    <h2>8. Children</h2>
+    <p>The app is not directed at children under 13 and does not knowingly collect
+    personal information from them.</p>
+  </section>
+
+  <section>
+    <h2>9. Changes</h2>
+    <p>This policy will be updated here when the app's data handling changes. The
+    effective date at the top will change with it.</p>
+  </section>
+
+  <section>
+    <h2>10. Contact</h2>
+    <p>Questions about this policy can be sent to the developer through the contact
+    address published on the app's Google Cloud project.</p>
+    <p><a href="index.html">← Back to the app information page</a></p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 PieceOfInsult · <a href="index.html">Home</a> · <a href="terms.html">Terms</a></p>
+</footer>
+</body>
+</html>

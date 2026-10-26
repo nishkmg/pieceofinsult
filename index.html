@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PieceOfInsult — app information</title>
+<meta name="description" content="PieceOfInsult: information about the app that publishes short-form videos to the PieceOfInsult YouTube channel, and why it requests access to Google user data.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <img src="logo-120.png" width="72" height="72" alt="PieceOfInsult logo">
+  <div>
+    <h1>PieceOfInsult</h1>
+    <p class="tag">Sourced insults, quoted verbatim.</p>
+  </div>
+</header>
+
+<main>
+  <section>
+    <h2>What this site is</h2>
+    <p>This is the public information page for the <strong>PieceOfInsult</strong>
+    application. It exists so that people who see this app's name on a Google
+    sign-in screen can find out what it does and read its policies before
+    granting access.</p>
+  </section>
+
+  <section>
+    <h2>What the app does</h2>
+    <p>PieceOfInsult is a single-developer tool that publishes short-form videos
+    to the <a href="https://www.youtube.com/@pieceofinsult" rel="me">PieceOfInsult
+    YouTube channel</a>. It is a convenience client for one content channel — it is
+    not a public service, and it does not offer accounts to other people.</p>
+    <p>Concretely, the app can:</p>
+    <ul>
+      <li><strong>Upload videos</strong> — title, description, tags and thumbnail, to the developer's own channel.</li>
+      <li><strong>Read basic channel and video metadata</strong> — to confirm that an upload succeeded and to report its status.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Why it requests access to your Google data</h2>
+    <p>Uploading a video to a YouTube channel requires authorization from the
+    Google account that owns that channel. The app therefore asks for exactly
+    two YouTube Data API v3 scopes:</p>
+    <ul>
+      <li><code>youtube.upload</code> — upload videos to the channel.</li>
+      <li><code>youtube.readonly</code> — read channel and video metadata to verify the upload.</li>
+    </ul>
+    <p>The app accesses Google user data <strong>only when the developer runs an
+    upload</strong>. It is never presented to visitors of this site, and it is never
+    requested from you unless you are the app's developer.</p>
+    <p>It requests <strong>no other Google product</strong> — no Gmail, no Google Drive,
+    no Calendar, no contacts, no location, no advertising data.</p>
+  </section>
+
+  <section>
+    <h2>How data is handled</h2>
+    <ul>
+      <li>The refresh token and access token are stored only on the developer's own machine, in local credential files.</li>
+      <li>Uploaded video metadata (title, description, tags) is stored on the developer's own systems and on YouTube.</li>
+      <li>Nothing collected by this app is sold, brokered, shared with third parties, or used for advertising.</li>
+      <li>The developer can revoke access at any time from <a href="https://myaccount.google.com/permissions">Google Account permissions</a>, and access can be revoked here by clicking <em>Remove access</em> on the sign-in screen.</li>
+    </ul>
+    <p>Full detail is in the <a href="privacy.html">Privacy Policy</a>.</p>
+  </section>
+
+  <section>
+    <h2>Policies</h2>
+    <ul>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms of Service</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Source of the content</h2>
+    <p>The channel's video scripts are built from quotations retrieved from
+    published sources, with the source URL recorded alongside each quotation.
+    Attribution is checked and known misattributions are flagged rather than
+    repeated.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Questions about the app or its data handling can be sent to the developer
+    through the contact address published on the app's Google Cloud project.</p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 PieceOfInsult · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+</footer>
+</body>
+</html>
